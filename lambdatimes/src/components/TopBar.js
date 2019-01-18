@@ -11,6 +11,7 @@ const TopBarDiv =styled.div`
   height: 44px;
   background-color: #333;
 `;
+
 const Container = styled.div`
   width: 100%;
   display: flex;
@@ -21,6 +22,7 @@ const Container = styled.div`
   letter-spacing: 1px;
   padding: 0 10px;
 `;
+
 const ContainerLeft = styled.div`
   display: flex;
   justify-content: none;
@@ -29,11 +31,13 @@ const ContainerLeft = styled.div`
   flex: 1;
   font-size: 11px;
 `;
+
 const LeftSpan = styled.span`
   cursor: pointer;
   margin-right: 25%;
   font-weight: bold;
 `;
+
 const CenterContainer = styled.div`
   display: flex;
   justify-content: center;
@@ -41,7 +45,8 @@ const CenterContainer = styled.div`
   flex-direction: row;
   flex: 3;
   font-size: 9px;
-  `;
+`;
+
 const CentSpan = styled.span`
   cursor: pointer;
   margin-right: 5%;
@@ -62,6 +67,7 @@ const ContainerRight = styled.div`
   font-size: 11px;
   font-weight: bold;
 `;
+
 const RightSpan = styled.span`
   cursor: pointer;
 `;
