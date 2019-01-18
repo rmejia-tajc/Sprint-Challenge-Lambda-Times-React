@@ -8,7 +8,7 @@ const Tab = props => {
   if (props.tab === props.selectedTab) {
     newClass = "tab active-tab"
   } else {
-    {newClass = "tab"}
+    newClass = "tab"
   }
   /* Using your props, determine if the `tab` prop matches the `selectedTab` prop, 
       if they match, the className should be: 'tab active-tab', 
