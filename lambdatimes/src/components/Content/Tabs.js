@@ -1,5 +1,6 @@
 import React from 'react';
 import Tab from './Tab';
+
 const Tabs = props => {
   return (
     <div className="tabs">
@@ -8,13 +9,16 @@ const Tabs = props => {
         {props.tabs.map((tab, index) => {
           return (
             <Tab
-              tab = {tab}
+              tab = {props.tabs[index]}
               key = {index}
+              selectTabHandler={props.selectTabHandler}
+              selectedTab = {props.selectedTab}
             />
           )
         })
         /* map over the tabs provided on your props, create a new Tab component for each one.
-            give the tab component a `selectTabHandler`, the `selectedTab`, and the `tab` itself as props*/}
+            give the tab component a `selectTabHandler`, the `selectedTab`, and the `tab` itself as props*/
+        }
       </div>
     </div>
   );
